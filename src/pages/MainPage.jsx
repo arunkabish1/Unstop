@@ -11,7 +11,7 @@ const Home = () => {
     console.log(localStorage.getItem("authToken"));
     if (!storedUserData || !authToken) {
       navigate("/");
-      console.log("auth",authToken)
+      // console.log("auth",authToken)
       return;
     }
   
@@ -20,6 +20,7 @@ const Home = () => {
       headers: {
         Authorization: `Bearer ${authToken}`,
       },
+      // credentials:'include'
      
     })
       .then((response) => {
