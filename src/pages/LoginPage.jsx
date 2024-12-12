@@ -24,7 +24,7 @@ const LoginPage = () => {
       </div>
 
       <div className="flex w-full md:w-1/2 items-center justify-center p-4">
-        <div className="bg-white rounded-2xl w-5/6 mx-auto">
+        <div className="bg-white w-full rounded-2xl md:w-5/6 mx-auto">
           <div className="p-6">
             <h1 className="text-4xl font-semibold text-center">Welcome to</h1>
             <h1 className="font-extrabold text-4xl text-unstop text-center">

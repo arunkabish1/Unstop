@@ -156,6 +156,19 @@ const LoginForm = () => {
         >
           {isLoading ? "Loading..." : "Login"}
         </button>
+        <div className="mb-4 mt-6 flex justify-between">
+          <label className="flex items-center text-black">
+            <input
+              type="checkbox"
+              className="mr-2 rounded bg-form focus:ring-unstop"
+            />
+            Remember Me
+          </label>
+          <a className="text-unstop " href="">
+            Forgot Password?
+          </a>
+        </div>
+
       </form>
     </div>
   );
