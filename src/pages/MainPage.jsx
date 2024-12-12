@@ -10,7 +10,7 @@ const Home = () => {
     const authToken = localStorage.getItem("authToken");
     console.log(localStorage.getItem("authToken"));
     if (!storedUserData || !authToken) {
-      navigate("/auth/login");
+      navigate("/");
       console.log("auth",authToken)
       return;
     }
